@@ -1,0 +1,80 @@
+.bg-container{
+    background-color: #fff;
+    height: 100vh;
+    background-color: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    background-color: #030349;
+    align-self: center;
+    width: 400px;
+    border-radius: 20px;
+    
+}
+.card-container{
+    padding: 20px;
+}
+
+.username{
+    display: flex;
+    
+}
+.name{
+    color:#fff;
+    font-size: 20px;   
+}
+
+.profile{
+    color: #ffc0cb;
+    font-size: 10px;
+    background-color: #dcdcdc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.balance{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    color: #fff;  
+    font-size: 20px;
+}
+.text{
+    color: #800080;
+    font-size: 20px;
+    font-weight:bold ;
+}
+.withdraw-container{
+    display: flex;
+    flex-direction: column;
+}
+.withdraw{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.rupees{
+    color: #800080;   
+}
+.withdraw-button{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:60px;
+    padding-right: 60px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #4a0a4b48;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
